@@ -1,0 +1,31 @@
+{
+  "author": "Andrew Sliwinski <andrew@diy.org> (https://diy.org)",
+  "name": "dpla",
+  "description": "API client for the Digital Public Library of America",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thisandagain/dpla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisandagain/dpla.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "hyperquest": "~0.1.7",
+    "underscore": "~1.5.1",
+    "cork": "0.0.1",
+    "request": "~2.25.0"
+  },
+  "devDependencies": {
+    "hint-hint": "~0.2.0",
+    "json5": "~0.2.0",
+    "tap": "~0.4.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  }
+}
