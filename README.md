@@ -1,6 +1,8 @@
 ## dpla
 #### API client for the Digital Public Library of America
 
+[![Build Status](https://travis-ci.org/thisandagain/dpla.png?branch=master)](https://travis-ci.org/thisandagain/dpla)
+
 ### Installation
 ```bash
 npm install dpla
