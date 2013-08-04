@@ -1,1 +1,1 @@
-require('jshint-tap-simple').run(__dirname + '/../../lib/*.js');
+require('hint-hint')(__dirname + '/../../lib/*.js');

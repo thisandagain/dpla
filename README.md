@@ -20,6 +20,23 @@ dpla({
 });
 ```
 
+### Complex Search Queries
+```javascript
+var dpla = require('dpla')('APIKEY');
+
+dpla({
+    uri: '/items',
+    search: {
+        'q': 'atl*',
+        'sourceResource.title': 'africa',
+        'page_size': 25,
+        'page': 2
+    }
+}, function (err, results) {
+    // Even more data!
+});
+```
+
 ### Testing
 ```bash
 npm test
