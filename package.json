@@ -14,14 +14,12 @@
     "test": "make test"
   },
   "dependencies": {
-    "hyperquest": "~0.1.7",
+    "json5": "~0.2.0",
     "underscore": "~1.5.1",
-    "cork": "0.0.1",
     "request": "~2.25.0"
   },
   "devDependencies": {
     "hint-hint": "~0.2.0",
-    "json5": "~0.2.0",
     "tap": "~0.4.3"
   },
   "optionalDependencies": {},
